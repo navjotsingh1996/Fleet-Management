@@ -1,24 +1,14 @@
-import Link from "next/link";
 import React from "react";
+import Nav from "../components/Nav/Nav";
+import Footer from "../components/Footer/Footer";
 
 const MainLayout = () => {
-    return (
-        <div>
-            <nav>
-                <li>
-                    <ul>
-                        <Link href="/home"> Home </Link>
-                    </ul>
-                    <ul>
-                        <Link href="/assets"> Assets </Link>
-                    </ul>
-                    <ul>
-                        <Link href="/drivers"> Drivers </Link>
-                    </ul>
-                </li>
-            </nav>
-        </div>
-    )
-}
+  return (
+    <>
+      <Nav />
+      <Footer />
+    </>
+  );
+};
 
 export default MainLayout;
