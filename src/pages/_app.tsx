@@ -2,11 +2,13 @@ import React from "react";
 import Nav from "../components/Nav/Nav";
 import Footer from "../components/Footer/Footer";
 
-const MainLayout = () => {
+const MainLayout = ({ Component, pageProps }) => {
   return (
-    <div>
-      TEST
-    </div>
+    <>
+      <Nav />
+        <Component {...pageProps} />
+      <Footer />
+    </>
   );
 };
 
