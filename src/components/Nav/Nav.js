@@ -6,7 +6,7 @@ const Nav = () => {
     <nav className={styles.nav}>
       <ul>
         <li>
-          <Link href="/home"> Home </Link>
+          <Link href="/"> Home </Link>
         </li>
         <li>
           <Link href="/assets"> Assets </Link>
